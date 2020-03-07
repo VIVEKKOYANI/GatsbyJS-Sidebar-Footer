@@ -6,7 +6,7 @@
 
 module.exports = {
   /* Your site config here */
-  plugin: [
+  plugins: [
     {
       resolve: `gatsby-plugin-typography`,
       options: {
