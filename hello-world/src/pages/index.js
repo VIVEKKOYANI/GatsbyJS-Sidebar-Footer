@@ -3,7 +3,7 @@ import Header from '../components/header'
 import {Link} from 'gatsby'
 export default () =>( 
     
-<div style={{color: `purple`, fontSize: `72px`}}>
+<div style={{margin: `3rem auto`, maxWidth: 600, color: `purple`, fontSize: `25px`}}>
     <Link  to="/profile" >Profile</Link>
     <Link  to="/product" >Products</Link>
     <Link  to="/contact" >Contact</Link>
